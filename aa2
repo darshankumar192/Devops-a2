@@ -1,0 +1,68 @@
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git init
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git config --> global user.email "darshanshetty192@gmail.com"
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git remote add origin https://github.com/darshankumar192/a2.git
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git add .
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git commit -m "done"
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git push origin master
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git log
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git status
+---------------------------------------------------------------------------
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git checkout -b b1
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b1)
+$ nano 1.txt (ctrl+x)
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b1)
+$ git add .
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b1)
+$ git commit -m "da"
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b1)
+$ git switch master
+
+-------------------------------------------------------------------
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git checkout -b b2
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b2)
+$ nano 1.txt
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b2)
+$ git add .
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b2)
+$ git commit -m "ok"
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (b2)
+$ git switch master
+---------------------------------------------------
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git merge b1
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master)
+$ git merge b2
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master|MERGING)
+$ git push origin b1
+
+DARSHAN KUMAR B M@LAPTOP-0B2KM38L MINGW64 ~/OneDrive/Desktop/a2 (master|MERGING)
+$ git push origin b2
